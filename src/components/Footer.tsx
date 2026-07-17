@@ -3,13 +3,13 @@ import { View, Text, StyleSheet } from "react-native";
 const styles = StyleSheet.create({
 
     t1: {
-        fontSize: 10,
+        fontSize: 12,
         textAlign: "center",
         marginTop: 16
     },
 
     highlight: {
-        color: "maroon",
+        color: "#0368f5",
         fontWeight: 900
     }
 
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 
 export default function Footer() {
     return (
-        <View >
+        <View style={{marginTop: 32}}>
             <Text style={styles.t1}>By continuing, you agree to our <Text style={styles.highlight}>Terms & Conditions</Text> and<Text style={styles.highlight}>{"\n"}Privacy Policy</Text></Text>
         </View>
     )

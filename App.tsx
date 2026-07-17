@@ -1,8 +1,12 @@
 import RootLayout from '@/app/_layout';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+// import * as AuthSession from "expo-auth-session";
 
 export default function App() {
+  // const redirectUri = AuthSession.makeRedirectUri({
+  //   scheme: "makeup-app",
+  // })
+  // console.log("Redirect URI:", redirectUri);
   return (
     <RootLayout />
   );

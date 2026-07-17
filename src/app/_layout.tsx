@@ -3,7 +3,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function RootLayout() {
     return (
-        <SafeAreaProvider>
+        <SafeAreaProvider style={{borderWidth: 4, borderColor: "green"}}>
 
             {/* <Stack screenOptions={{ headerShown: false }}>
                 <Stack.Screen name="/" />
